@@ -1,0 +1,7 @@
+site_name: Energy Risk Planning Docs
+site_url: https://energy-risk-carpentry.readthedocs.io/
+theme:
+  name: readthedocs
+nav:
+  - Inicio: index.md
+  - Guía de Uso: usage.md
