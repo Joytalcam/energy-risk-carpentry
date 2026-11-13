@@ -1,0 +1,18 @@
+# .readthedocs.yaml
+# Archivo de configuración de Read the Docs
+version: 2
+
+# Configuración del entorno de construcción
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.12"
+
+# Usamos MkDocs para construir la documentación
+mkdocs:
+  configuration: mkdocs.yml
+
+# Dependencias de Python necesarias
+python:
+  install:
+    - requirements: requirements.txt
